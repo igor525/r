@@ -3,4 +3,4 @@
 ## Результат вы можете посмотреть тут 
 
 
-[Моя первая работа](https://igor525.github.io/reseume-Git/)
+[Моя первая работа на HTML и CSS](https://igor525.github.io/reseume-Git/)
