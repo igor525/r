@@ -1,85 +1,110 @@
 <!DOCTYPE html>
-<!-- saved from url=(0045)http://127.0.0.1:5500/Resume%20Igor%20SH.html -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Resume Igor SH</title>
-</head>
-<body>
-  <img src="./Почта России.JPG" width="300," alt=" Фотка ненсионного св-ва">
-  <br>
-<h1>Igor Shafranov </h1>
-<h2>Junior fronfnend разработчик</h2>
+<html lang="en">
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Resume Igor SH</title>
+        <link rel="stylesheet" href="Git_css.css">
+      </head>
+    <body>
+      <div class="container">
+          <div class="info">
+            <img src="./Почта России.JPG"   alt="Фотка непонятного свидетельства" class="avatar">
+            <div class="info-text">
+              <h1>Igor Shafranov</h1>
+              <p>Я основатель одноименного <strong>Youtube канала</strong> и онлайн-школы по программированию <strong>Злой ТИГР</strong></p>
 
-<h2>Мои хобби</h2>
-<ol>
-    <li>Бухание пиваса</li>
-    <li>Горные лыжи</li>
-    <li>Путешествия</li>
-    <li>Яхтинг</li>
-    <li>Прыжки на месте</li>
-</ol>
-<h2>Трудовая деятельность</h2>
-<table>
-  <thead>
-    <tr>
-      <th>Организация</th>
-      <th>Должность</th>
-      <th>Годы</th>
-    </tr>
-  </thead>
+                <div>
+                  <h4>Список соц сетей</h4>
+                
+                  <a href="https://web.telegram.org/a/" target="_blank">Telegram</a>
+                  <a href="https://www.mail.ru" target="_blank">Mail RU</a>
+                  <a href="http://www.Youtube.com" target="_blank">Youtube</a> 
 
-    <tbody> 
-      <tr>
-        <td>Отделение связи</td>
-        <td>Прием отправлений</td>
-        <td>1985-1986</td>
-      </tr>
-      <tr>
-       <td>Водитель электрокара</td>
-       <td>Работа на складе</td>
-       <td>1986-1990</td>
-      </tr>
-      <tr>
-       <td>Директор</td>
-       <td>Финасовый директор</td>
-       <td>1990- по настоящее время</td>
-     </tr>
-    </tbody>
-  </table>
-<hr>
-<h3>Родился в Москве, 01 сентября 1970 года.</h3>
-<p><strong>Я начинающий программист, пытаюсь  освоить  эту науку на пятдесят третьем году жизни.</strong></p><p><strong>
-  <em> Обучение идет очень  медленно,
-   так как над каждым заданием, приходится очень долго трудиться.</em></strong></p><strong><em> Я очень люблю путешествовать по миру, 
-    вместе со своими близкими.</em></strong><p><strong><em> Воспитываю двух замечательных дочек.</em>.</strong>
+                </div>
 
-      </p><h4>Познакомится со мной ближе, можно в социальных сетях.<br>Перехождите по ссылкам ниже.</h4>
-       <a href="https://web.telegram.org/a/" target="_blank">Telegram</a>
-       <a href="https://www.mail.ru" target= "_blank" >Mail RU</a>
-       <a href="http://www.Youtube.com" target="_blank">Youtube</a>
-<hr>   
+            </div>  
 
-<h2>Связаться со мной</h2>
-<form action="/">
+              <div class="card bg-green">
+                <h2>Мои хобби</h2>
+                <ol class="list">
+                  <li>Путешествия на автомобиле</li>
+                  <li>Катание на горных лыжах</li>
+                  <li>Рыбалка</li>
+                  <li>Пешие прогулки</li>
+                </ol>
+              </div>
+            
+          </div>
 
-  <div>
-    <label for="name">Введите Имя:</label>
-    <input type="text" id="name" placeholder="введите Ваше Имя">
-  </div>
+          <div class="card bg-red">
+            <h2>Трудовая деятельность</h2>
+              <table class="table">
+                <!--<thead>
+                  <tr>
+                    <th>Организация</th>
+                    <th>Должность</th>
+                    <th>Годы</th>
+                  </tr>
+                </thead>-->
+                <tbody>
+                  <tr>
+                    <td>Отделение связи</td>
+                    <td>Прием отправлений</td>
+                    <td>1985-1986</t>
+                  </tr>
+                <tr>
+                  <td>Водитель электрокара</td>
+                  <td>Работа на складе</td>
+                  <td>1986-1990</td>
+                </tr>
+                <tr>
+                  <td>Директор Себя</td>
+                  <td>Финансовый директор</td>
+                  <td>1990-настоящее время</td>
+                </tr>
+                </tbody>
+              </table>
+          </div>
+          <div class="card bg-yellow">
 
-  <div>
-    <label for="Email">Введите Email:</label>
-    <input type="email" id="Email" placeholder="Введите ваш email">
-  </div>
+            <h2>Мои Курсы</h2>
+              <ul class="link-list">
+                <li>Курсы по основам программирования для новичков</li>
+                <li>Курсы кройки и шитья</li>
+                <li>Курсы безопасного вождения автомобиля</li>
+                <li>Кулинарная школа для подростков</li>
+              </ul>
+          </div>
+          
+          
+            <form action="/" class="form">
+              <h2>Связаться со мной</h2>
 
-  <div>
-      <label for="message">Ваше Сообщение:</label><br>
-      <textarea id="message" cols="20" rows="5" placeholder="Введите текст сообщения здесь"></textarea> 
-  </div>
-  <br>
-  <input type="submit" value="Отправить">
-</form>
-</script>
-</body>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Введите Имя:</label>
+                  <input type="text" id="name" placeholder="Введите Ваше Имя">
+                </div>
+
+
+                <div class="form-group">
+                  <label for="Email">Введите Email:</label>
+                  <input type="email" id="Email" placeholder="Введите ваш email">
+                </div>
+
+              </div>
+
+                <div class="form-group">
+                  <label for="message">Ваше Сообщение:</label><br>
+                  <textarea id="message" cols="20" rows="5" placeholder="Введите текст сообщения здесь"></textarea>
+                </div>
+                  <input class="btn" type="submit" 
+                  value="Отправить">
+            </form>
+            
+          
+        
+      </div>   
+    </body>
 </html>
